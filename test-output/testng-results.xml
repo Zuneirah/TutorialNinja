@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-22T17:03:54 IST" name="Default suite" finished-at="2024-06-22T17:04:02 IST" duration-ms="8329">
+  <suite started-at="2024-06-22T18:12:16 IST" name="Default suite" finished-at="2024-06-22T18:12:51 IST" duration-ms="35437">
     <groups>
     </groups>
-    <test started-at="2024-06-22T17:03:54 IST" name="Default test" finished-at="2024-06-22T17:04:02 IST" duration-ms="8329">
-      <class name="com.tutorialsNinja.qa.testcases.Login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.qa.testcases.Login@6631f5ca]" started-at="2024-06-22T17:03:54 IST" name="setup" finished-at="2024-06-22T17:04:00 IST" duration-ms="6666" status="PASS">
+    <test started-at="2024-06-22T18:12:16 IST" name="Default test" finished-at="2024-06-22T18:12:51 IST" duration-ms="35437">
+      <class name="com.tutorialsNinja.qa.testcases.Register">
+        <test-method signature="VerifyRegisteringAccountWithMandatoryFields()[pri:1, instance:com.tutorialsNinja.qa.testcases.Register@c333c60]" started-at="2024-06-22T18:12:16 IST" name="VerifyRegisteringAccountWithMandatoryFields" finished-at="2024-06-22T18:12:27 IST" duration-ms="11055" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:com.tutorialsNinja.qa.testcases.Login@6631f5ca]" started-at="2024-06-22T17:04:00 IST" name="verifyLoginWithInvalidCredentials" finished-at="2024-06-22T17:04:01 IST" duration-ms="999" status="PASS">
+        </test-method> <!-- VerifyRegisteringAccountWithMandatoryFields -->
+        <test-method signature="VerifyRegisteringAccountByProvidingAllFields()[pri:2, instance:com.tutorialsNinja.qa.testcases.Register@c333c60]" started-at="2024-06-22T18:12:27 IST" name="VerifyRegisteringAccountByProvidingAllFields" finished-at="2024-06-22T18:12:36 IST" duration-ms="9495" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.qa.testcases.Login@6631f5ca]" started-at="2024-06-22T17:04:01 IST" name="tearDown" finished-at="2024-06-22T17:04:02 IST" duration-ms="630" status="PASS">
+        </test-method> <!-- VerifyRegisteringAccountByProvidingAllFields -->
+        <test-method signature="VerifyRegisteringAccountByExistingEmailAddress()[pri:3, instance:com.tutorialsNinja.qa.testcases.Register@c333c60]" started-at="2024-06-22T18:12:36 IST" name="VerifyRegisteringAccountByExistingEmailAddress" finished-at="2024-06-22T18:12:44 IST" duration-ms="8137" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.tutorialsNinja.qa.testcases.Login -->
+        </test-method> <!-- VerifyRegisteringAccountByExistingEmailAddress -->
+        <test-method signature="VerifyRegisteringAccountWithoutFillingAnyDetails()[pri:4, instance:com.tutorialsNinja.qa.testcases.Register@c333c60]" started-at="2024-06-22T18:12:44 IST" name="VerifyRegisteringAccountWithoutFillingAnyDetails" finished-at="2024-06-22T18:12:51 IST" duration-ms="6708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisteringAccountWithoutFillingAnyDetails -->
+      </class> <!-- com.tutorialsNinja.qa.testcases.Register -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

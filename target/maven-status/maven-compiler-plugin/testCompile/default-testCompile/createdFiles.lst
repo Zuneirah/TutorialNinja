@@ -1,2 +1,2 @@
-com\tutorialsNinja\qa\testcases\Login.class
-com\tutorialsNinja\qa\testcases\Register.class
+com\tutorialsNinja\qa\testcases\RegisterTest.class
+com\tutorialsNinja\qa\testcases\LoginTest.class
