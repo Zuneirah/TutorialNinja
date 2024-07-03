@@ -12,7 +12,7 @@ import com.tutorials.Ninja.qa.utils.Utilities;
 public class RegisterTest {
 	
 	
-	@Test (enabled=false)
+	@Test (priority =1)
 	public void VerifyRegisteringAccountWithMandatoryFields() {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -36,7 +36,7 @@ public class RegisterTest {
 	}
 	
 	
-	@Test (enabled=false)
+	@Test (priority =2)
 	public void VerifyRegisteringAccountByProvidingAllFields() {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -60,7 +60,7 @@ public class RegisterTest {
 		
 	}
 
-	@Test (enabled= false)
+	@Test (priority =3)
 	public void VerifyRegisteringAccountByExistingEmailAddress() {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -88,7 +88,7 @@ public class RegisterTest {
 	}
 	
 	
-	@Test (enabled=false)
+	@Test (priority =4)
 	public void VerifyRegisteringAccountWithoutFillingAnyDetails() {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
