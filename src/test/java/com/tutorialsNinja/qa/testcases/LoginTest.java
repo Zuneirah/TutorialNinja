@@ -38,7 +38,9 @@ public class LoginTest {
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 			driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 			driver.get("https://tutorialsninja.com/demo/");
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 			driver.findElement(By.xpath("//span[text()='My Account']")).click();
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 			driver.findElement(By.linkText("Login")).click();
 		
 	}
