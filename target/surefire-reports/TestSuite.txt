@@ -1,4 +1,69 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 53.902 s - in TestSuite
+Tests run: 19, Failures: 5, Errors: 0, Skipped: 14, Time elapsed: 82.058 s <<< FAILURE! - in TestSuite
+setup(com.tutorialsNinja.qa.testcases.LoginTest)  Time elapsed: 25.2 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd86db3fdc6a373260e70f3519a18960, clickElement {id=f.B7C798136A1E42903254ECBDF79792B4.d.947B358B30B4BB6BA6B8F53156AB8DB0.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58361}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58361/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bd86db3fdc6a373260e70f3519a18960)] -> xpath: //span[text()='My Account']]
+Session ID: bd86db3fdc6a373260e70f3519a18960
+	at com.tutorialsNinja.qa.testcases.LoginTest.setup(LoginTest.java:41)
+
+VerifyRegisteringAccountWithMandatoryFields(com.tutorialsNinja.qa.testcases.RegisterTest)  Time elapsed: 14.33 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe22f47e34dbca5b30f0c2ea1382eb6a, clickElement {id=f.401D2F66A56149902D1A2376F664591E.d.0DE61ECB4B10C33D80EC8454ECBB7F0C.e.38}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58381}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58381/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fe22f47e34dbca5b30f0c2ea1382eb6a)] -> xpath: //span[text()='My Account']]
+Session ID: fe22f47e34dbca5b30f0c2ea1382eb6a
+	at com.tutorialsNinja.qa.testcases.RegisterTest.VerifyRegisteringAccountWithMandatoryFields(RegisterTest.java:22)
+
+VerifyRegisteringAccountByProvidingAllFields(com.tutorialsNinja.qa.testcases.RegisterTest)  Time elapsed: 14.361 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff526bc9f63c270f3bde7d89df747928, clickElement {id=f.8A0F81D897F9F717749DB8949B15DBE8.d.749D79C098760A97179289F8FA8CC075.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58405}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58405/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ff526bc9f63c270f3bde7d89df747928)] -> xpath: //span[text()='My Account']]
+Session ID: ff526bc9f63c270f3bde7d89df747928
+	at com.tutorialsNinja.qa.testcases.RegisterTest.VerifyRegisteringAccountByProvidingAllFields(RegisterTest.java:46)
+
+VerifyRegisteringAccountByExistingEmailAddress(com.tutorialsNinja.qa.testcases.RegisterTest)  Time elapsed: 14.036 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a22791859a2960a5eb14451c03438a4, clickElement {id=f.F3EAB8D9091CD0A8B746AFFF8FE55271.d.5B873CDF1E9E72AB5160C9AF6C3BD769.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58426/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5a22791859a2960a5eb14451c03438a4)] -> xpath: //span[text()='My Account']]
+Session ID: 5a22791859a2960a5eb14451c03438a4
+	at com.tutorialsNinja.qa.testcases.RegisterTest.VerifyRegisteringAccountByExistingEmailAddress(RegisterTest.java:70)
+
+VerifyRegisteringAccountWithoutFillingAnyDetails(com.tutorialsNinja.qa.testcases.RegisterTest)  Time elapsed: 13.868 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3469987829c0632d7e22d5b6ea0ad932, clickElement {id=f.5DD2A0A76BC045B5F17768321D19D1F3.d.6B8845C2AFB4DD9035826AF1D3E8D739.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58449}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58449/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3469987829c0632d7e22d5b6ea0ad932)] -> xpath: //span[text()='My Account']]
+Session ID: 3469987829c0632d7e22d5b6ea0ad932
+	at com.tutorialsNinja.qa.testcases.RegisterTest.VerifyRegisteringAccountWithoutFillingAnyDetails(RegisterTest.java:98)
+

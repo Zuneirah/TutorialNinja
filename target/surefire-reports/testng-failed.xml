@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.tutorialsNinja.qa.testcases.RegisterTest">
+        <methods>
+          <include name="VerifyRegisteringAccountByProvidingAllFields"/>
+          <include name="VerifyRegisteringAccountByExistingEmailAddress"/>
+          <include name="VerifyRegisteringAccountWithoutFillingAnyDetails"/>
+          <include name="VerifyRegisteringAccountWithMandatoryFields"/>
+        </methods>
+      </class> <!-- com.tutorialsNinja.qa.testcases.RegisterTest -->
+      <class name="com.tutorialsNinja.qa.testcases.LoginTest">
+        <methods>
+          <include name="verifyLoginWithInvalidEmailAddressAndValidPassword"/>
+          <include name="setup"/>
+          <include name="verifyLoginWithValidEmailAddressAndInvalidPassword"/>
+          <include name="verifyLoginWithInvalidCredentials"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginWithValidCredentials"/>
+          <include name="verifyLoginWithoutProvidingCredentials"/>
+        </methods>
+      </class> <!-- com.tutorialsNinja.qa.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
